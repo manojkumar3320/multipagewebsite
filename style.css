@@ -1,0 +1,297 @@
+h2{
+    font-weight: 100;
+    font-style: normal;
+}
+.hero-section{
+    background-image: url("images/nature1.jpg");
+   background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    opacity:0.4;
+    display:flex;
+    align-items: center;
+    padding:100px 0;
+    box-shadow: 0px 5px;
+    height:300px;
+}
+
+
+   
+.whatuthink{
+    width: 100%;
+    height:350px;
+    background-color: orangered;
+    text-align:justify;
+    color:white;
+    padding:50px 0px;
+    
+} 
+.whatuthink{
+    text-align: center;
+    margin-bottom:30px;
+}
+.whatuthink h2{
+    text-transform: uppercase;
+    font-family: bold;
+}
+.whatuthink .button{
+    width:200px;
+    height:50px;
+    text-transform: uppercase;
+    color:orangered;
+}
+
+.header{
+    padding: 30px 0px;
+    background: white;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.header ul a{
+    padding: 0 20px;
+    text-transform: uppercase;
+    color: darkblue;
+}
+.how-we-work img{
+    width:100%;
+}
+.how-we-work h4{
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.gallery .image{
+    position: relative;
+    overflow: hidden;
+}
+.gallery .overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background: #00000094;
+    opacity: 0;
+}
+.gallery:hover .overlay{
+    opacity: 1;
+}
+.gallery:hover .image img{
+    transform: scale3d(1.2,1.2,1.2);
+
+}
+
+.how-we-work{
+    background-color: lightgray;
+    box-shadow: 10px;
+    padding:10%;
+}
+.aboutus{
+    padding:20%;
+
+}
+.services img {
+    width: 100%;
+}
+.services h1{
+    text-align:center;
+    text-transform: uppercase;
+    
+}
+
+.title{
+    background-color: orangered;
+    display:flex;
+    align-items: center;
+    text-transform: uppercase;
+   
+    justify-content: center;
+    margin-top: 20px 0;
+    height:250px;
+    
+}
+.title{
+    height:250px;
+    text-align: center;
+}
+.title h1{
+    color:white;
+    margin-top: 80px;
+    
+
+}
+.title p {
+    margin-left:10px;
+    justify-content: center;
+    color:white;
+    
+    
+}
+.title p a{
+    text-align: center;
+    padding:0px 30px;
+    color:white;
+    margin:0 -20px 0 -20px;
+    
+}
+
+.info{
+    margin-bottom: 30px;
+}
+.info .row{
+    text-align:left;
+    height:300px;
+    
+}
+.info .row h2{
+    text-align: start;
+    font-style: bold;
+}
+.info .row p{
+    text-align: start;
+}
+.info .orange{
+    background-color: orangered;
+    text-align: center;
+    padding:50px 50px;
+    
+}
+.info .blue{
+    background-color:lightblue;
+    text-align: center;
+    padding:50px 50px;
+  
+}
+.info .green{
+    background-color: aqua;
+    text-align: center;
+    padding:50px 50px;
+    
+}
+.meet h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: bold;
+
+}
+.meet h3{
+    text-transform: capitalize;
+    color:orangered;
+}
+.meet img{
+    height:100%;
+    width:100%;
+}
+
+
+.different h2{
+    text-transform: uppercase;
+    font-family: bold;
+}
+.different{
+    margin: 20px 0px;
+    
+}
+title{
+    background-color: orangered;
+    display:flex;
+    align-items: center;
+    text-transform: uppercase;
+   
+    justify-content: center;
+    margin-top: 20px 0;
+    height:250px;
+}
+.what h5{
+    text-transform: uppercase;
+    text-align: center;
+}
+.what p{
+    text-align: center;
+    color:#ffffff rgb(255,255,255);
+}
+.what{
+    margin-top:30px;
+}
+.what img{
+    height:100%;
+    width:100%;
+}
+.how-we-work img{
+    width:100%;
+}
+.how-we-work h4{
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.gallery .image{
+    position: relative;
+    overflow: hidden;
+}
+.gallery .overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background: #00000094;
+    opacity: 0;
+}
+.gallery:hover .overlay{
+    opacity: 1;
+}
+.gallery:hover .image img{
+    transform: scale3d(1.2,1.2,1.2);
+
+}
+
+.how-we-work{
+    background-color: lightgray;
+    box-shadow: 10px;
+    padding:10%;
+}
+
+.space{
+    margin-top:30px;
+} 
+.space .pic{
+        position: relative;
+        overflow: hidden;
+        width: auto;
+        height: 400px;
+    }
+.space{
+    background-color:lightgrey;
+}
+.space h2{
+    font-family: bold;
+}
+.contact-me{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.contact-me .button{
+    color:white;
+    background-color: orangered;
+    height:40px;
+
+}
+.address .one{
+    background-color:lightgrey;
+}
+.address .two{
+    background-color:lightgrey;
+}
+.address .three{
+    background-color:lightgrey;
+}
+.address .four{
+    background-color:lightgrey;
+}
+.address{
+    margin-bottom: 30px;
+}
